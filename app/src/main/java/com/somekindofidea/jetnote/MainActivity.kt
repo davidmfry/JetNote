@@ -20,7 +20,7 @@ class MainActivity : ComponentActivity() {
             JetNoteTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(color = MaterialTheme.colors.background) {
-                    NoteScreen()
+                    NoteScreen(notes = emptyList(), onAddNote = {}, onRemoveNote = {})
                 }
             }
         }

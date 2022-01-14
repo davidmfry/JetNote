@@ -1,4 +1,4 @@
-##JetNote
-An app to created to learn how to use Jetpack compose. This app also uses the MVVM pattern.
-The allows the use to create new notes and remove the created notes by clicking on the note.
-JetNot use ROOM to save the note locally and Hilt & Dagger for dependency injection.
+## JetNote
+An app created to learn how to use Jetpack compose. This app uses the MVVM pattern.
+JetNote allows the user to create new notes and remove the created notes by clicking on them. 
+The app also uses ROOM to save the notes locally and Hilt & Dagger for dependency injection.
